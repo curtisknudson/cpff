@@ -1,11 +1,235 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flag Football Weekly — Week 3</title>
+<style>
+*{box-sizing:border-box} :root{--navy:#17344b;--gold:#b8841e;--rust:#a34f32;--ink:#182027;--paper:#fbfaf6;--line:#d9dde0;--muted:#66717a}
+body{margin:0;background:#ecebe6;color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.48}
+.wrap{width:min(1080px,calc(100% - 32px));margin:auto}.masthead{background:var(--paper);border-top:8px solid var(--navy);border-bottom:1px solid var(--line);padding:28px 0 24px;text-align:center}
+.kicker{font-size:.72rem;letter-spacing:.18em;color:var(--rust);font-weight:800}.masthead h1{font-family:Georgia,serif;color:var(--navy);font-size:clamp(2.2rem,7vw,4.8rem);line-height:.95;margin:10px 0 6px;letter-spacing:-.035em}
+.edition{font-weight:800;letter-spacing:.11em;color:var(--muted)}.edition span{color:var(--gold);padding:0 8px}.deck{max-width:780px;margin:20px auto 0;font-family:Georgia,serif;font-size:1.2rem;font-weight:700}
+main{background:var(--paper);padding:24px 42px 55px;box-shadow:0 3px 20px #00000012}section{padding:27px 0;border-bottom:1px solid var(--line)}section:last-child{border:0}
+h2,h3{margin:0 0 12px;text-transform:uppercase;line-height:1.08}h2{font-family:Georgia,serif;color:var(--navy);font-size:clamp(1.65rem,4vw,2.35rem);border-left:6px solid var(--gold);padding-left:12px}h3{color:var(--rust);font-size:1.05rem;letter-spacing:.02em}p{margin:9px 0}
+.table-wrap{overflow-x:auto;margin:15px 0}table{border-collapse:collapse;width:100%;min-width:600px;font-size:.91rem}th{background:var(--navy);color:white;text-transform:uppercase;font-size:.75rem;letter-spacing:.04em;text-align:left}th,td{padding:10px 12px;border:1px solid var(--line)}tbody tr:nth-child(even){background:#f0f2f3}td:nth-child(n+3){font-variant-numeric:tabular-nums}
+.feature{background:#f3f0e8;margin:18px -22px;padding:28px 22px;border-top:4px solid var(--gold);border-bottom:0}.pull,.callout{font-family:Georgia,serif;font-weight:700}.pull{font-size:1.12rem;padding-left:18px;border-left:4px solid var(--rust)}
+.callout{background:var(--navy);color:white;padding:18px 20px;margin:18px 0;border-radius:3px}.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.cards article{border:1px solid var(--line);padding:18px;background:white}.cards article h3{margin-bottom:8px}
+.rankings{padding-left:2.1rem}.rankings li{padding:9px 8px;border-bottom:1px solid var(--line)}.rankings li::marker{font-family:Georgia,serif;font-size:1.25rem;font-weight:800;color:var(--gold)}
+footer{background:var(--navy);color:white;padding:30px 0 40px}footer strong{font-family:Georgia,serif;text-transform:uppercase;font-size:1.3rem}footer p{max-width:850px;color:#dce3e8}
+@media(max-width:700px){.wrap{width:min(100% - 18px,1080px)}main{padding:12px 15px 38px}.masthead{padding-top:20px}.deck{font-size:1.05rem}.cards{grid-template-columns:1fr}.feature{margin:14px -7px;padding:22px 14px}table{font-size:.82rem}th,td{padding:8px}}
+@media print{body{background:white}main{box-shadow:none}.wrap{width:100%}section{break-inside:avoid}footer{background:white;color:black;border-top:2px solid #000}}
+
+</style>
 </head>
 <body>
-	<h1>Is this working?</h1>
+<header class="masthead">
+  <div class="wrap">
+    <div class="kicker">THE LEAGUE'S MOST QUESTIONABLY SERIOUS PUBLICATION</div>
+    <h1>FLAG FOOTBALL WEEKLY</h1>
+    <div class="edition">WEEK 3 <span>•</span> THE INVESTIGATIVE EDITION</div>
+    <p class="deck">Two undefeated teams. Seven-touchdown quarterbacks. Draft receipts. A family census disguised as analytics. And Gilbert Cawley remains legally permitted to play quarterback.</p>
+  </div>
+</header>
+
+<main class="wrap">
+<section>
+<h2>Week 3 Scoreboard</h2>
+<div class="table-wrap"><table><thead><tr><th>Winner</th><th>Score</th><th>Opponent</th></tr></thead><tbody>
+<tr><td>Team 3 (William Timpson)</td><td>46–22</td><td>Team 6 (Dylan Horsley)</td></tr>
+<tr><td>Team 2 (Aaron Timpson)</td><td>47–26</td><td>Team 7 (Donald Timpson)</td></tr>
+<tr><td>Team 5 (Gilbert Cawley)</td><td>41–18</td><td>Team 1 (Alonso Timpson)</td></tr>
+<tr><td>Team 4 (Cole White)</td><td>40–27</td><td>Team 8 (Joseph Timpson)</td></tr>
+</tbody></table></div>
+</section>
+
+<section class="feature">
+<h2>The Top Two Refuse to Blink</h2>
+<p><strong>Team 2 (Aaron Timpson)</strong> and <strong>Team 3 (William Timpson)</strong> are both 3-0. Aaron went 25-of-30 for 375 yards, seven touchdowns and zero interceptions in Week 3. William answered with 417 yards and seven touchdowns. The rest of the league is rapidly discovering that waiting for one of them to lose is not technically a defensive scheme.</p>
+<p>Aaron gets the Week 3 efficiency edge at 83.3% completions. William gets the season-volume crown: <strong>950 yards and 17 passing touchdowns</strong> through three games.</p>
+</section>
+
+<section><h3>Standings</h3>
+<div class="table-wrap"><table><thead><tr><th>RK</th><th>Team / Captain</th><th>W-L</th><th>+/-</th></tr></thead><tbody>
+<tr><td>1</td><td>Team 2 (Aaron Timpson)</td><td>3-0</td><td>+32</td></tr>
+<tr><td>2</td><td>Team 3 (William Timpson)</td><td>3-0</td><td>+25</td></tr>
+<tr><td>3</td><td>Team 4 (Cole White)</td><td>2-1</td><td>+23</td></tr>
+<tr><td>4</td><td>Team 5 (Gilbert Cawley)</td><td>2-1</td><td>+6</td></tr>
+<tr><td>5</td><td>Team 8 (Joseph Timpson)</td><td>1-2</td><td>+1</td></tr>
+<tr><td>6</td><td>Team 7 (Donald Timpson)</td><td>1-2</td><td>-22</td></tr>
+<tr><td>7</td><td>Team 1 (Alonso Timpson)</td><td>0-3</td><td>-12</td></tr>
+<tr><td>8</td><td>Team 6 (Dylan Horsley)</td><td>0-3</td><td>-47</td></tr>
+</tbody></table></div></section>
+
+<section><h2>The Passing Report</h2>
+<p>Every primary passer with at least 20 attempts gets a seat at the table. This is where volume, efficiency and turnovers stop hiding behind final scores.</p>
+<div class="table-wrap"><table><thead><tr><th>Passer</th><th>CMP/ATT</th><th>CMP%</th><th>YDS</th><th>TD</th><th>INT</th><th>RTG</th></tr></thead><tbody>
+<tr><td>William Timpson</td><td>58/101</td><td>57.43</td><td>950</td><td>17</td><td>1</td><td>124.6</td></tr>
+<tr><td>Aaron Timpson</td><td>60/97</td><td>61.86</td><td>873</td><td>12</td><td>5</td><td>109.2</td></tr>
+<tr><td>Curt White</td><td>64/108</td><td>59.26</td><td>866</td><td>15</td><td>5</td><td>105.2</td></tr>
+<tr><td>Alonso Timpson</td><td>66/111</td><td>59.46</td><td>722</td><td>8</td><td>4</td><td>87.7</td></tr>
+<tr><td>Sub Joseph</td><td>44/72</td><td>61.11</td><td>632</td><td>9</td><td>1</td><td>123.4</td></tr>
+<tr><td>Gilbert Cawley</td><td>52/98</td><td>53.06</td><td>630</td><td>9</td><td>7</td><td>73.9</td></tr>
+<tr><td>Dylan Horsley</td><td>45/90</td><td>50.00</td><td>620</td><td>4</td><td>12</td><td>47.7</td></tr>
+<tr><td>Daniel Dockstader</td><td>44/68</td><td>64.71</td><td>613</td><td>7</td><td>3</td><td>109.5</td></tr>
+<tr><td>Levi Knudson</td><td>22/43</td><td>51.16</td><td>261</td><td>4</td><td>3</td><td>71.9</td></tr>
+<tr><td>Donald Timpson</td><td>18/34</td><td>52.94</td><td>224</td><td>2</td><td>3</td><td>56.5</td></tr>
+</tbody></table></div>
+
+<h3>Quarterback Notes</h3>
+<p>William Timpson has 17 touchdowns against one interception. Daniel Dockstader leads the listed passers in completion percentage at 64.71%. Dylan Horsley has 12 interceptions in three games, which has moved beyond a statistic and into a recurring feature.</p>
+<div class="callout"><strong>Quarterback Controversy of the Week — Team 8 (Joseph Timpson)</strong><br>Joseph's substitute sits at a 123.4 passer rating. Levi Knudson is at 71.9. That is a 51.5-point gap. Usually a backup creates controversy by playing almost as well as the starter. Apparently nobody explained that part to Joseph's sub — or Levi.</div>
+</section>
+
+<section><h3>Week 3 Interception Report</h3>
+<div class="table-wrap"><table><thead><tr><th>QB</th><th>INT</th><th>Who Got Him</th></tr></thead><tbody>
+<tr><td>William Timpson</td><td>1</td><td>Dylan Horsley</td></tr>
+<tr><td>Dylan Horsley</td><td>4</td><td>William Timpson, Taylor Timpson, Brayden Hammon, Stafford Hammon</td></tr>
+<tr><td>Daniel Dockstader</td><td>3</td><td>Aaron Timpson, Daniel Williams, Moroni Musser</td></tr>
+<tr><td>Aaron Timpson</td><td>0</td><td>Nobody</td></tr>
+<tr><td>Alonso Timpson</td><td>2</td><td>George Timpson, Daniel Dutson</td></tr>
+<tr><td>Gilbert Cawley</td><td>3</td><td>Bruce Hammon, Steven Timpson, Mahonri Barlow</td></tr>
+<tr><td>Levi Knudson</td><td>3</td><td>Cole White (2), Curt White</td></tr>
+<tr><td>Curt White</td><td>2</td><td>Horatio Williams (2)</td></tr>
+</tbody></table></div>
+<p>Aaron was the only primary Week 3 passer in the four games to finish without an interception. Gilbert threw three and still won by 23, which the Newsletter Investigative Unit has entered as evidence that life may be easier when your receiving room is built like a custom character screen.</p>
+</section>
+
+<section><h2>Top Five Receivers</h2>
+<p>The five leaders by receiving yards through Week 3. Targets are included because production is useful; knowing who the quarterback keeps looking for is even more useful.</p>
+<div class="table-wrap"><table><thead><tr><th>RK</th><th>Player</th><th>TGT</th><th>REC</th><th>YDS</th><th>YPC</th><th>TD</th><th>DROP</th></tr></thead><tbody>
+<tr><td>1</td><td>Cole White</td><td>38</td><td>25</td><td>408</td><td>16.3</td><td>8</td><td>1</td></tr>
+<tr><td>2</td><td>Daniel Williams</td><td>38</td><td>23</td><td>382</td><td>16.6</td><td>7</td><td>0</td></tr>
+<tr><td>3</td><td>Gideon Hammon</td><td>26</td><td>19</td><td>297</td><td>15.6</td><td>3</td><td>2</td></tr>
+<tr><td>4</td><td>Donald Timpson</td><td>30</td><td>19</td><td>238</td><td>12.5</td><td>2</td><td>1</td></tr>
+<tr><td>5</td><td>Horatio Williams</td><td>29</td><td>16</td><td>190</td><td>11.9</td><td>1</td><td>3</td></tr>
+</tbody></table></div>
+<p>Cole White currently leads the league in receiving yards and touchdowns. Daniel Williams is only 26 yards behind him. Gideon Hammon is sitting at 297 yards as a second-round pick — excellent value, but absolutely not a late-round sleeper no matter how much the editorial department once wanted that storyline.</p>
+</section>
+
+<section><h2>Target Hogs</h2>
+<div class="table-wrap"><table><thead><tr><th>Team</th><th>Most Targeted</th><th>Targets</th></tr></thead><tbody>
+<tr><td>Team 1 (Alonso Timpson)</td><td>Steven Timpson</td><td>23</td></tr>
+<tr><td>Team 2 (Aaron Timpson)</td><td>Daniel Williams</td><td>38</td></tr>
+<tr><td>Team 3 (William Timpson)</td><td>Stafford Hammon</td><td>19</td></tr>
+<tr><td>Team 4 (Cole White)</td><td>Jeremy Dockstader</td><td>28</td></tr>
+<tr><td>Team 5 (Gilbert Cawley)</td><td>Nathan Knudson</td><td>24</td></tr>
+<tr><td>Team 6 (Dylan Horsley)</td><td>Taylor Horsley / Caleb Barlow</td><td>16 each</td></tr>
+<tr><td>Team 7 (Donald Timpson)</td><td>Gideon Hammon</td><td>26</td></tr>
+<tr><td>Team 8 (Joseph Timpson)</td><td>Horatio Williams</td><td>29</td></tr>
+</tbody></table></div></section>
+
+<section class="feature"><h2>The Hands, the Size, the Speed</h2>
+<p>Team 5 (Gilbert Cawley) is becoming suspiciously well equipped. <strong>Nathan Knudson</strong>, who has some of the strongest hands in the league, has 19 catches on 24 targets for 186 yards and three touchdowns. <strong>George Timpson</strong>, one of Gilbert's fastest receivers, has 10 catches for 118 yards and three scores. Then there is <strong>Adam Naylor</strong>, one of the biggest players in the league, who just went for 116 yards and three touchdowns in Week 3.</p>
+<p class="pull">Size, hands and speed. Gilbert has apparently decided the best way to extend a quarterback career is to outsource as much difficulty as possible.</p>
+</section>
+
+<section><h2>Gilbert Cawley Longevity Watch</h2>
+<p>Team 5 (Gilbert Cawley) is 2-1, and Gilbert has 630 passing yards and nine touchdowns through three weeks. Week 3 brought 308 yards and four touchdowns despite three interceptions. The numbers remain annoyingly alive.</p>
+<p>The Newsletter Investigative Unit originally went looking for sacks as evidence that the veteran quarterback might finally be slowing down. The problem: the recorded game sheets show <strong>zero sacks against Team 5 in all three games.</strong> Apparently even Father Time cannot get into the backfield.</p>
+<p>There is, however, one mobility clue: Gilbert has exactly one recorded rush for -4 yards. We are not prepared to call that a decline. We are prepared to call it an extremely small sample size that is also very funny.</p>
+<div class="callout"><strong>Official Longevity Status:</strong> Still upright. Still winning. Surrounded by size, hands and speed. Investigation remains open.</div>
+</section>
+
+<section><h2>Week 3 Awards</h2>
+<div class="cards">
+<article><h3>Offensive Player of the Week — Aaron Timpson</h3><p><strong>25/30, 375 yards, 7 TD, 0 INT.</strong> There are performances that require film study and performances that simply require the defense to apologize to its families.</p></article>
+<article><h3>Honorable Mention — William Timpson</h3><p><strong>20/29, 417 yards, 7 TD, 1 INT.</strong> In almost any other week this wins. Aaron completing five of every six passes was inconsiderate timing.</p></article>
+<article><h3>Receiver of the Week — Adam Naylor</h3><p><strong>6 catches, 116 yards, 3 TD.</strong> Six catches, three scores. At that conversion rate, Gilbert only needs to locate Adam twice before something alarming happens.</p></article>
+</div></section>
+
+<section class="feature"><h2>The Spin Zone — An Investigation Into Jay Timpson's Hands</h2>
+<p>Jay Timpson has <strong>2 recorded drops</strong> through Week 3, but before criticizing him, context matters. Jay has spent the last three seasons catching passes from left-handed quarterbacks — including one season with Gilbert Cawley. Now he's being asked to adjust to the opposite spin of a right-handed ball. Scientists call this “rotation.” Jay calls it “a perfectly legitimate excuse.”</p>
+<p class="pull">League sources confirm he may need another 3–5 seasons to fully adjust.</p>
+</section>
+
+<section><h2>Defense Optional — Touchdowns Allowed</h2>
+<p>Using offensive touchdowns scored in the Week 1–3 game sheets, here is the part of the standings nobody asks to see.</p>
+<div class="table-wrap"><table><thead><tr><th>RK</th><th>Team</th><th>TD Allowed</th></tr></thead><tbody>
+<tr><td>1</td><td>Team 7 (Donald Timpson)</td><td>16</td></tr>
+<tr><td>2</td><td>Team 6 (Dylan Horsley)</td><td>15</td></tr>
+<tr><td>3</td><td>Team 8 (Joseph Timpson)</td><td>14</td></tr>
+<tr><td>4</td><td>Team 1 (Alonso Timpson)</td><td>12</td></tr>
+<tr><td>5</td><td>Team 3 (William Timpson)</td><td>10</td></tr>
+<tr><td>6</td><td>Team 4 (Cole White)</td><td>9</td></tr>
+<tr><td>7</td><td>Team 5 (Gilbert Cawley)</td><td>7</td></tr>
+<tr><td>8</td><td>Team 2 (Aaron Timpson)</td><td>5</td></tr>
+</tbody></table></div>
+<p>Team 7 (Donald Timpson) has allowed the most with 16. Team 6 (Dylan Horsley) is one touchdown behind at 15, meaning the race for defensive generosity is currently extremely competitive.</p>
+</section>
+
+<section><h2>The Caleb Barlow Athleticism Watch</h2>
+<p>Caleb Barlow is 6'2", in excellent shape and has a 24-inch vertical. Through the first two games, all of that athletic equipment had produced only 2 catches for 21 yards. The stat sheet appeared unaware of the scouting report.</p>
+<p>Then Week 3 happened: <strong>6 catches, 138 yards and a touchdown.</strong> So the planned “where is the production?” investigation has been temporarily suspended due to the sudden appearance of production.</p>
+<p class="pull">The defense is still fair game. Caleb plays safety for Team 6 (Dylan Horsley), which has allowed 15 offensive touchdowns — second-most in the league and only one behind the lead. At 6'2" with a 24-inch vertical, Caleb theoretically occupies a considerable amount of airspace. Opposing offenses have spent three weeks locating the rest.</p>
+</section>
+
+<section><h2>The Tackle Leader Asterisk</h2>
+<p><strong>Ean Dockstader leads the league with 19 tackles.</strong> Impressive — until you remember that tackles generally require the person you are defending to possess the football first.</p>
+<p>We are not saying Team 4 (Cole White) cannot cover. We are merely noting that Ean has become extraordinarily experienced at ending plays after somebody else has already started them.</p>
+<div class="callout"><strong>League investigation:</strong> Is “most tackles” a defensive award, or a highly detailed admission of guilt?</div>
+</section>
+
+<section><h2>Draft Capital Investigations</h2>
+<p>High draft picks are supposed to produce. When they do not, the newsletter has a fiduciary responsibility to ask irresponsible questions.</p>
+<div class="cards">
+<article><h3>Caleb Barlow — Round 2, Team 6</h3><p>The first two weeks were rough: 2 catches, 21 yards. Week 3's 138-yard breakout has saved Caleb from a full audit, but the paperwork had already been printed. Consider this probation.</p></article>
+<article><h3>Kyle Dockstader — Round 3, Team 7</h3><p><strong>5 catches, 53 yards, 0 touchdowns.</strong> The front office remains confident the breakout is coming. The front office would also appreciate everyone discontinuing follow-up questions.</p></article>
+<article><h3>Taylor Timpson — Round 2, Team 3</h3><p>Only 3 catches, but they have produced 79 yards and 2 touchdowns. Taylor has apparently concluded that ordinary receptions are administrative work and should be avoided whenever possible.</p></article>
+</div></section>
+
+<section><h2>Late-Round Legends — Round 6 and Later</h2>
+<p>Now using the actual draft rows. Round 6 means the sixth name in each team column, with Rounds 7 and 8 below it. No honorary late-round status and no second-round picks wearing fake mustaches.</p>
+<div class="table-wrap"><table><thead><tr><th>Player</th><th>RD</th><th>Team</th><th>REC YDS</th><th>TD</th></tr></thead><tbody>
+<tr><td>Steven Dockstader</td><td>8</td><td>Team 3 (William Timpson)</td><td>120</td><td>1</td></tr>
+<tr><td>Connor Williams</td><td>6</td><td>Team 7 (Donald Timpson)</td><td>113</td><td>0</td></tr>
+<tr><td>Gabriel Zitting</td><td>7</td><td>Team 3 (William Timpson)</td><td>112</td><td>3</td></tr>
+<tr><td>Kendall Hammon</td><td>6</td><td>Team 3 (William Timpson)</td><td>108</td><td>0</td></tr>
+<tr><td>Mahonri Barlow</td><td>7</td><td>Team 1 (Alonso Timpson)</td><td>101</td><td>1</td></tr>
+<tr><td>Alvin Timpson</td><td>8</td><td>Team 6 (Dylan Horsley)</td><td>96</td><td>1</td></tr>
+</tbody></table></div>
+<p>Steven Dockstader leads the Round 6+ group in receiving yards with 120. Gabriel Zitting has the louder scoring line with three touchdowns. Team 3 (William Timpson) has three names in the table, suggesting everyone else may have started mentally packing up around Round 6.</p>
+</section>
+
+<section><h2>The Family Business</h2>
+<p>There are enough repeated surnames to create a second league inside the league. This edition uses receiving production. The final column looks only at players with more than five receptions and divides those players' combined receptions by the number of qualifiers — a simple “receptions per productive family member” measure.</p>
+<div class="table-wrap"><table><thead><tr><th>Family</th><th>REC YDS</th><th>REC TD</th><th>Total REC</th><th>&gt;5 REC Players</th><th>REC / Qualifier</th></tr></thead><tbody>
+<tr><td>Timpson</td><td>1,574</td><td>18</td><td>111</td><td>8</td><td>12.4</td></tr>
+<tr><td>Hammon</td><td>1,249</td><td>14</td><td>95</td><td>6</td><td>13.2</td></tr>
+<tr><td>Williams</td><td>748</td><td>8</td><td>52</td><td>3</td><td>15.7</td></tr>
+<tr><td>Dockstader</td><td>591</td><td>7</td><td>45</td><td>3</td><td>12.3</td></tr>
+<tr><td>Barlow</td><td>493</td><td>4</td><td>24</td><td>2</td><td>7.0</td></tr>
+<tr><td>Naylor</td><td>240</td><td>5</td><td>16</td><td>2</td><td>8.0</td></tr>
+<tr><td>Knudson</td><td>237</td><td>4</td><td>24</td><td>1</td><td>19.0</td></tr>
+</tbody></table></div>
+<p>The Timpsons lead in raw receiving volume, aided by the subtle strategy of <strong>having a lot of Timpsons.</strong> The Knudsons only have one player above five receptions, but Nathan's 19 catches give them the highest receptions-per-qualifier mark. The Williams family sits at 15.7 per qualifier while also supplying two of the league's most productive receivers.</p>
+</section>
+
+<section><h2>Stock Watch</h2><div class="cards">
+<article><h3>↑ Caleb Barlow</h3><p>From 2 catches and 21 yards through two games to 6 catches for 138 yards in Week 3. That is not a gradual trend; that is a player discovering the stat sheet all at once.</p></article>
+<article><h3>↑ Adam Naylor</h3><p>Naylor's 116-yard, three-touchdown Week 3 moved him to five receiving touchdowns in two recorded games. Gilbert's receiver advantage investigation grows stronger by the week.</p></article>
+<article><h3>↑ Cole White</h3><p>408 receiving yards, eight receiving touchdowns and three interceptions on defense. Producing on both sides of the ball is becoming a little showy.</p></article>
+<article><h3>Pressure Watch — Dylan Horsley</h3><p>Twelve interceptions through three games, including four in Week 3. The good news is that Week 4 arrives quickly. The bad news is that the newsletter also arrives quickly.</p></article>
+</div></section>
+
+<section><h2>Power Rankings</h2><ol class="rankings">
+<li><strong>Team 2 (Aaron Timpson), 3-0</strong> — Undefeated, +32, and coming off seven touchdowns with no interceptions. Somebody has to beat them before manufactured controversy becomes necessary.</li>
+<li><strong>Team 3 (William Timpson), 3-0</strong> — William leads the league in passing yards and touchdowns, and the roster is getting suspiciously good value from the back half of the draft.</li>
+<li><strong>Team 4 (Cole White), 2-1</strong> — Cole leads the league in receiving yards and TDs while the defense keeps generating turnovers. Specializing is apparently beneath him.</li>
+<li><strong>Team 5 (Gilbert Cawley), 2-1</strong> — Nine passing touchdowns, a winning record and a receiving room with size, hands and speed. The age-adjusted computer model has requested legal counsel.</li>
+<li><strong>Team 8 (Joseph Timpson), 1-2</strong> — Enough receiving production to be dangerous, but the quarterback situation has been a moving target.</li>
+<li><strong>Team 7 (Donald Timpson), 1-2</strong> — Gideon Hammon is producing and Donald leads the league in rushing, but 16 touchdowns allowed is now officially a newsletter statistic.</li>
+<li><strong>Team 1 (Alonso Timpson), 0-3</strong> — Alonso has eight passing touchdowns and three sacks on defense. The standings continue to be needlessly literal.</li>
+<li><strong>Team 6 (Dylan Horsley), 0-3</strong> — Caleb Barlow finally exploded offensively. Now the defense needs to stop competing for the league lead in touchdowns allowed.</li>
+</ol></section>
+
+<section class="feature"><h2>Doubleheader Saturday — Weeks 4 &amp; 5</h2>
+<p>The next league date is a Saturday-morning doubleheader. Two games in one morning means twice the standings movement, twice the stat swings and approximately four times the opportunity for somebody's legs to file a formal complaint.</p>
+<p>William “Willy” Timpson's historisal relationship with cramping remains on the editorial back burner. No official cramp emergency has been declared. Hydration officials are nevertheless aware of the schedule.</p>
+<p>Five games of data after the doubleheader will also make Stock Watch much less forgiving. One-week explosions will have to prove they were not accidents, and slow starts will become harder to explain away.</p>
+</section>
+</main>
+
+<footer><div class="wrap"><strong>Editor's Desk</strong><p>All satire is intended as friendly league banter. Statistics are based on the supplied Week 1–3 game sheets, Week 3 season totals and draft board. The numbers are serious. The conclusions drawn from them are considerably less so.</p></div></footer>
 </body>
 </html>
