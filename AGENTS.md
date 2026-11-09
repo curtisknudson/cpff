@@ -16,6 +16,7 @@ Static site for cpff.online. The live edition is the repo root. Older editions s
 | --- | --- |
 | `week-3/` | Week 3, the Investigative Edition. Self-contained: styles are inlined in `index.html`. Own `og.png`. |
 | `weeks-4-5/` | Weeks 4 & 5, the Doubleheader Edition. Own `index.html`, `styles.css`, and `og.png`. |
+| `week-6/` | Week 6, The Weather Won. Own `index.html`, `styles.css`, and `og.png`. |
 
 The new edition's nav is the source of truth for the archive slug. Week 6 links the doubleheader to `/weeks-4-5/`.
 
