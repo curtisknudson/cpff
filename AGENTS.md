@@ -10,6 +10,10 @@ Static site for cpff.online. The live edition is the repo root. Older editions s
 - `favicon.png` and `apple-touch-icon.png` are site-wide. Do not replace them when publishing an edition.
 - `CNAME` is `cpff.online`. Do not change it.
 
+## Do not open a browser
+
+Do not launch Firefox, Chrome, or any other browser, headless or not. Do not screenshot the site. Do not search the computer for browsers, fonts, or old sessions. Publish the files. The user verifies.
+
 ## Archived editions
 
 | Folder | Edition |
@@ -17,6 +21,7 @@ Static site for cpff.online. The live edition is the repo root. Older editions s
 | `week-3/` | Week 3, the Investigative Edition. Self-contained: styles are inlined in `index.html`. Own `og.png`. |
 | `weeks-4-5/` | Weeks 4 & 5, the Doubleheader Edition. Own `index.html`, `styles.css`, and `og.png`. |
 | `week-6/` | Week 6, The Weather Won. Own `index.html`, `styles.css`, and `og.png`. |
+| `week-7/` | Week 7, the Playoff Edition. Own `index.html`, `styles.css`, and `og.png`. |
 
 The new edition's nav is the source of truth for the archive slug. Week 6 links the doubleheader to `/weeks-4-5/`.
 
@@ -42,7 +47,7 @@ GoatCounter, kept on the live page and on archives:
 
 ## Open Graph card
 
-Match the existing cards. Do not use an image model. The words and numbers have to be exact, and image models garble them. Render HTML at 1200×630 and screenshot it.
+Match the existing cards. Do not use an image model. The words and numbers have to be exact, and image models garble them. Render a 1200×630 PNG without a browser.
 
 Colors, same as the site: navy `#17344b`, gold `#b8841e`, rust `#a34f32`, paper `#fbfaf6`, muted `#66717a`, rules `#d9dde0`.
 
@@ -59,7 +64,7 @@ Structure, top to bottom:
 
 Week 6's columns are `5–1 • +103 / COLE WHITE`, `5 TD • 0 INT / GILBERT CAWLEY`, and `34–12 / JOSEPH'S TEAM`. Use real en dashes. Use lining figures so a zero does not look like a letter.
 
-Fonts: Playfair Display for the masthead, deck, and figures. Source Sans 3 for the kicker, edition line, labels, and footer. A headless Firefox screenshot at `--window-size=1200,630` produces the right pixel size. Set `og:image:alt` to a one-sentence description of the card.
+Fonts: Playfair Display for the masthead, deck, and figures. Source Sans 3 for the kicker, edition line, labels, and footer. Render the 1200×630 PNG without a browser. Set `og:image:alt` to a one-sentence description of the card.
 
 ## Leave the prose alone
 
